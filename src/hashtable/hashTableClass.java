@@ -72,6 +72,10 @@ public class hashTableClass {
 		hq.put("AddedKey2", 4);
 		
 		System.out.println(hq);
+	
+	    hq.remove("AddedKey2");
+	    
+	    System.out.println(hq);
 	}
 
 }
