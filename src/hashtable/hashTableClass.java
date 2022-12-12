@@ -1,6 +1,8 @@
 package hashtable;
 
 import java.util.Hashtable;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class hashTableClass {
 
@@ -76,6 +78,12 @@ public class hashTableClass {
 	    hq.remove("AddedKey2");
 	    
 	    System.out.println(hq);
+	    
+	    
+	   for (Entry<String, Integer> e: hq.entrySet())
+		   System.out.println(e.getKey()+""+e.getValue());
+	
+	
 	}
 
 }
