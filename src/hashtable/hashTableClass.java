@@ -56,7 +56,7 @@ public class hashTableClass {
 		
 		Hashtable<String,Integer> h4=new Hashtable<>(hm);
 		
-		System.out.println(hm);
+		System.out.println(h4);
 		
 		
 		
