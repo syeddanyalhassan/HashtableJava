@@ -12,6 +12,9 @@ public class hashTableClass {
 	
 	public static void main(String [] args)
 	{
+		
+		// Displaying to hashtables separately 
+		
 		Hashtable<Integer, String> h1=new Hashtable<>();
 		
 		Hashtable<Integer, String> h2=new Hashtable<>();
@@ -34,11 +37,29 @@ public class hashTableClass {
 		
 		System.out.println("Size of the hashtable:"+h3.size());
 		
+		// finding value of the key
+		
 		if (h3.containsKey("Vishal"))
 		{
 			Integer a=h3.get("Vishal");
 			System.out.println("Vishal value is "+a);
 		}
+		
+		
+		// Initializing hashtable with hm
+		
+		Hashtable<String, Integer> hm=new Hashtable<>();
+		
+		hm.put("NewKey", 1);
+		hm.put("NewKey2", 2);
+		hm.put("NewKey3", 3);
+		
+		Hashtable<String,Integer> h4=new Hashtable<>(hm);
+		
+		System.out.println(hm);
+		
+		
+		
 		
 	}
 
