@@ -59,8 +59,19 @@ public class hashTableClass {
 		System.out.println(h4);
 		
 		
+		// Changing Elements
 		
+		Hashtable<String, Integer> hq=new Hashtable<>();
 		
+		hq.put("AddedKey1",1);
+		hq.put("AddedKey2",2);
+		hq.put("AddedKey3",3);
+		
+		System.out.println(hq);
+		
+		hq.put("AddedKey2", 4);
+		
+		System.out.println(hq);
 	}
 
 }
